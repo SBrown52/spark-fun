@@ -1,8 +1,9 @@
 import org.apache.spark.SparkConf
-import org.apache.spark.sql.functions.split
 import org.apache.spark.sql.expressions.{MutableAggregationBuffer, UserDefinedAggregateFunction}
+import org.apache.spark.sql.functions.split
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.{Row, SparkSession}
+
 import scala.collection.mutable
 
 /**
